@@ -55,11 +55,11 @@ const searchhandler=async (e)=>{
          <p style={{textAlign:"right"}}>Marketcap</p>
         </div>
         {
-          display.slice(0,10).map((item,index)=>(
+          display.slice(0,9).map((item,index)=>(
              <Link to={`/coin/${item.id}`} className='table-layout' key={index}>
               <p>{item.market_cap_rank}</p>
               <div>
-                <img src={item.image} alt="" />
+                <img src={item.image} alt="coin image" />
                 <p>{item.name +"-"+item.symbol}</p>
               </div>
               <p>{currency.symbol} {item.current_price}</p>

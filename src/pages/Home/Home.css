@@ -97,3 +97,11 @@ padding-bottom: 100px;
     color: rgb(255, 8, 8);
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .HOME .he .table .table-layout {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+    }
+  }
